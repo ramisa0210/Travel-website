@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Travel</title>
+<!-- Tailwind CSS via CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- DaisyUI -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar bg-base-100 container mx-auto px-4 py-6">
+            <img src="img/logo.png" alt="Logo" class="w-8 h-8" />
+            <div class="flex-1">
+                <a class="btn btn-ghost normal-case text-2xl font-bold">
+                  <span class="text-black">Hero</span>
+                  <span class="text-orange-600">Travel</span>
+                </a>
+              </div>
+
+
+       
+        <div class="flex-none">
+            <ul class="menu menu-horizontal px-1 hidden md:flex">
+                <li><a class="text-gray-700">Home</a></li>
+                <li><a class="text-gray-700">Packages</a></li>
+                <li><a class="text-gray-700">Testimonial</a></li>
+                <li><a class="text-gray-700">Blog</a></li>
+                <li><a class="text-gray-700">Contact</a></li>
+            </ul>
+            <div class="dropdown dropdown-end md:hidden">
+                <label tabindex="0" class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </label>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a>Home</a></li>
+                    <li><a>Packages</a></li>
+                    <li><a>Testimonial</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header/Hero Section -->
+
+    <header class="hero min-h-[80vh] bg-cover bg-center" style="background-image: url('img/header-bg.png')" >
+
+       
+    <div class="hero-overlay bg-opacity-40"></div>
+        <div class="hero-content text-white text-center text-neutral-content">
+            <div class="max-w-2xl">
+                <h1 class="mb-5 text-5xl font-bold">Explore Your Travel</h1>
+                <p class="mb-5">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+
+                    <div class="bg-white/80 p-4 rounded-lg flex flex-col md:flex-row gap-2">
+
+                    <input type="text" placeholder="Where go" class="input input-bordered w-full text-gray-800">
+                    <select class="select select-bordered w-full text-gray-800">
+                        <option disabled selected>When</option>
+                        <option>January</option>
+                        <option>February</option>
+                    </select>
+                    <select class="select select-bordered w-full text-gray-800">
+                        <option disabled selected>Select Type</option>
+                        <option>Adventure</option>
+                        <option>Luxury</option>
+                    </select>
+                    <button class="btn bg-orange-600 border-none text-white flex items-center gap-2">
+                        <i class="fas fa-search"></i>
+                        Find Now
+                      </button>
+
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Video Section -->
+    <section class="container mx-auto px-4 py-16">
+        <div class="flex flex-col lg:flex-row gap-12">
+            <div class="flex-1">
+                <h2 class="text-4xl font-bold mb-6">A Simple Perfect Place To Get Lost</h2>
+                <p class="mb-6 text-gray-600">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis.</p>
+                <ul class="space-y-4">
+                    <li class="flex items-start gap-3">
+                        <span class="text-orange-600 font-bold">✓</span>
+                        <span class="text-gray-600">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="text-orange-600 font-bold">✓</span>
+                        <span class="text-gray-600">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</span>
+                    </li>
+                </ul>
+                <button class="btn bg-orange-600 border-none text-white mt-8">See More</button>
+            </div>
+
+
+            <div class="flex-1 relative">
+                <div class="w-full aspect-video rounded-lg overflow-hidden">
+                  <iframe 
+                    class="w-full h-full" 
+                    src="https://www.youtube.com/embed/0NMIZ-PTt8k?autoplay=0&rel=0" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                  </iframe>
+                </div>
+                <div class="absolute bottom-4 left-4 bg-black bg-opacity-50 px-4 py-2 rounded">
+                  <h3 class="text-white text-xl font-bold">Watch Our Mountain in Bangladesh</h3>
+                </div>
+              </div>          
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="container mx-auto px-4 py-16">
+        <div class="flex flex-col lg:flex-row gap-12">
+            <div class="flex-1 bg-white p-8 rounded-lg border border-orange-400">
+                <h3 class="text-2xl font-bold mb-4">Newsletter</h3>
+                <p class="text-gray-600 mb-6">Get your daily dose of travel news & tips. Sign up today!</p>
+                <div class="space-y-4">
+                    <input type="text" placeholder="Enter your name" class="input input-bordered w-full">
+                    <input type="email" placeholder="Enter your email" class="input input-bordered w-full">
+                    <button class="btn bg-orange-600 border-none text-white w-full">Subscribe</button>
+                </div>
+            </div>
+            <div class="flex-1 relative">
+
+
+
+                <img src="img/news.png"
+                alt="Travel" class="w-full rounded-lg">
+                <div class="absolute bottom-0 right-0 bg-orange-600 text-white p-6 rounded-lg transform rotate-[-19.63deg] w-64">
+                    <p class="text-sm">Travel.com</p>
+                    <h4 class="text-2xl font-bold">Save up to 70%</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+  
+<!-- Footer Section -->
+<footer class="bg-gray-100 p-8 text-center">
+  <div class="flex items-center justify-center mb-4 gap-2">
+    <img src="img/logo.png" alt="Logo" class="w-8 h-8" />
+    <span class="font-bold text-orange-500 text-xl">Hero Travel</span>
+  </div>
+  <p class="text-sm mb-4"> Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo 
+    erat maecenas vitae elementum ultricies nullam. 
+</p>
+
+
+  <div class="flex justify-center space-x-4 mb-4 text-gray-600 text-lg">
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+  </div>
+
+ <!-- Divider -->
+ <hr class="my-6 border-t border-gray-300 w-3/4 mx-auto">
+
+ <!-- Copyright -->
+ <p class="text-sm text-gray-500">2017, All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

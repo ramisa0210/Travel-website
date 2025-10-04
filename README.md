@@ -3,6 +3,12 @@
 
 ---
 
+## 🚀 Live Demo
+- **Frontend:** [https://astranex-frontend-qyrw.onrender.com](https://astranex-frontend-qyrw.onrender.com)  
+- **Backend API:** [https://astra-nex-backend.onrender.com](https://astra-nex-backend.onrender.com)
+
+---
+  
 ## **Introduction**
 
 Welcome to AstraNex, an interactive, web-based simulation platform designed to make the science of asteroid impacts both understandable and engaging.  

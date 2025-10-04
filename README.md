@@ -1,4 +1,3 @@
-<img width="1280" height="576" alt="image" src="https://github.com/user-attachments/assets/0ae71331-9d2c-44d2-8093-342b251dcc16" /># **AstraNex - Asteroid Impact Explorer**
 
 **Team EclipseZ introduces AstraNex – Visualizing Asteroid Threats and Earth’s Response**
 
